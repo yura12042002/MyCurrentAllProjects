@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262a2e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "roboto";
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background-color: #1b1e21;
+  color: white;
+}
+
+.headerName {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: flex;
+}
+
+.sliderBack {
+  width: 100px;
+  border: 0;
+  background: 0;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #262a2e;
+  width: 100%;
+  height: 90vh;
+}
+
+.listFilm {
+  width: 200px;
+  height: 250px;
+  margin-right: 200px;
+}
+
+.listFilmPicture {
+  width: 100%;
+  height: 100%;
+}
+
+.film {
+  display: flex;
+  align-items: center;
+  background-color: #262a2e;
+  width: 100%;
+}
+
+.filmPicture {
+  position: static;
+  margin-bottom: auto;
+  margin-top: 100px;
+  width: 40%;
+  height: 400px;
+  margin-left: 100px;
+}
+
+.filmInformation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 35%;
+  height: 90%;
+}
+
+.filmInformationMain {
+  color: white;
+}
+
+.filmInformationMainName {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.filmInformationMainYear {
+  margin-left: 10px;
+  color: gray;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.filmInformationMainGenres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filmInformationMainGenresEl {
+  margin: 0 10px;
+}
+
+.filmInformationMainSinopsis {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.filmInformationComments {
+  margin-top: 30px;
+  color: white;
+}
+
+.filmInformationCommentsName {
+  font-size: 30px;
+}
+
+.filmInformationCommentsNew {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  width: 80%;
+  background-color: rgb(65, 65, 65);
+}
+
+.filmInformationCommentsInput {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  border: 0;
+  outline: 0;
+  text-indent: 30px;
+}
+
+.filmInformationCommentsInput::placeholder {
+  color: white;
+}
+
+.filmInformationCommentsButton {
+  font-size: 30px;
+  margin-left: 10px;
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 30px;
+  word-break: break-all;
+  margin: 30px 0;
+}
+
+.commentDelete {
+  border: 0;
+  background: 0;
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.sliderBack {
+  font-size: 50px;
+  height: 100%;
+}
+
+.sliderBack:hover {
+  background-color: rgba(244, 246, 247, 0.1);
+}
+
+.sliderOff {
+  width: 100px;
+}
+
+.commentTime {
+  font-size: 10px;
+  color: white;
+}

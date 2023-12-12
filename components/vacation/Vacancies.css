@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.point {
+  margin: 0px 10px 0px 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selectedCategorys {
+  margin-top: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 80px;
+  box-shadow: 1px 1px 5px;
+  border-radius: 10px;
+}
+
+.selectedCategory {
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  background-color: #eef6f6;
+}
+
+.selectedCategoryDelete {
+  margin-left: 10px;
+  background: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.selectedCategorysDeleteAll {
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: 20px;
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+.blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  width: 1000px;
+  height: 130px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.blocksTools {
+  margin-left: 5px;
+  background-color: white;
+  display: flex;
+}
+
+.blocksTags {
+  display: flex;
+  margin-right: 30px;
+}
+
+.blocksToolsPictures {
+  padding-left: 30px;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+}
+
+.blocksToolsDescription {
+  background-color: white;
+  margin-left: 10px;
+  height: 80px;
+  width: 300px;
+}
+
+.blocksToolsDescriptionHead {
+  display: flex;
+  background-color: white;
+  margin-left: 10px;
+}
+
+.blocksToolsDescriptionHeadСompany {
+  color: #679f9d;
+}
+
+.blocksToolsDescriptionHeadNew {
+  color: white;
+  margin-left: 10px;
+  background-color: #679f9d;
+  padding: 3px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.blocksToolsDescriptionHeadFeatured {
+  color: white;
+  margin-left: 10px;
+  background-color: #000000;
+  padding: 3px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.blocksToolsDescriptionPosition {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: black;
+  font-family: "Roboto";
+}
+
+.blocksToolsDescriptionFooter {
+  display: flex;
+  background-color: white;
+  margin-top: 7px;
+}
+
+.blocksToolsDescriptionFooterPostedAt {
+  color: #4e4e4e;
+  margin-left: 10px;
+}
+
+.blocksToolsLanguage {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: 200px;
+  width: 350px;
+  background-color: white;
+}
+
+.blocksToolsLanguageItem {
+  margin-left: 20px;
+  padding: 10px;
+  font-family: "Roboto";
+  color: #253a6b;
+  background-color: #eef6f6;
+  border-radius: 4px;
+}
+
+.blocksToolsLanguageItem:hover {
+  background-color: #24b0b0;
+}
